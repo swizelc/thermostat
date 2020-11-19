@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thermostat</title>
+    <link rel="stylesheet" type='text/css' href="style.css"> 
+</head>
+<body>
+  <div class="container">
+    <div class="left-column">
+    <h1></h1>
+    <p>
+        <h1 id="display-temp"></h1>
+        <p id='main-buttons'>
+          <button id='temperature-up'>+</button>
+          <button id='temperature-down'>-</button>
+          <button id='temperature-reset'>reset</button>
+        </p>
+        <button id='power-saving'>Turn Power Saving Mode off</button>
+        <h3 id="usage"></h3>
+    </p>
+  </div>
+  <div class="right-column">
+    <p class="vertical">degrees</p>
+  </div>
+    
+  </div>
+  <div class="city-stuff">
+    <p>Choose city:</p>
+    <form>
+      <input type="text" id="city-name" required>
+      <input type="submit" value="Submit" id="submit-button">
+    </form>
+    <h3 id='city'>No City selected</h3>
+    <p id='weather'></p>
+    <p id='outside-temp'></p>
+  
+    <script src="src/Thermostat.js"></script>
+    <script src="src/script.js"></script>
+  </div>>
+</body>
+</html>

@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#power-saving {
+  background-color: lightgreen;
+  margin-left: 65%;
+  margin-top: -10%;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.left-column {
+  width: 66%;
+  display: inline-block;
+}
+
+.right-column {
+  width: 33%;
+  height: 100vh;
+  background-color: black;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.vertical {
+  margin-top: 50%;
+  margin-right: 70%;
+  transform: rotate(90deg);
+  font-size: 150px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#display-temp{
+  font-size: 200px;
+  margin-left: 72%
+}
+
+#main-buttons {
+  margin-left: 70%;
+  margin-top: -20%;
+}
+#temperature-up{
+  background-color: rgba(0, 0, 0, 0.961);
+  color: rgb(255, 251, 251);
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  
+}
+
+#temperature-down{
+  background-color: rgba(0, 0, 0, 0.961);
+  color: rgb(255, 251, 251);
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  
+}
+#temperature-reset{
+  background-color: rgba(0, 0, 0, 0.961);
+  color: rgb(255, 251, 251);
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  
+}
+.city-stuff{
+  margin-left: 45%;
+  margin-top: -2%;
+}
+
+#usage{
+  color: orange;
+  margin-left: 70%;
+  font-size: 30px;
+}
